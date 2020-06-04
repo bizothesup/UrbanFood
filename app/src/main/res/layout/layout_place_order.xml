@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@android:color/white">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edt_address"
+            android:hint="Adresse de Livraison"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_border"
+            android:ems="10"
+            android:fontFamily="@font/roboto"
+            android:inputType="textPersonName"
+            android:padding="@dimen/space_8"
+            android:textAlignment="viewStart"
+            android:textColor="@color/grey_40"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txt_address_detail"
+        android:text="Votre Adresse"
+        android:visibility="gone"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edt_comment"
+            android:hint="Plus sur votre Adresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/layout_border"
+            android:ems="10"
+            android:fontFamily="@font/roboto"
+            android:inputType="textPersonName"
+            android:padding="@dimen/space_8"
+            android:textAlignment="viewStart"
+            android:textColor="@color/grey_40" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:text="Lieu Livraison"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/dialog_header_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rdi_home_address"
+            android:checked="true"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:text="Adresse du Domicile"
+            android:textColor="@color/dialog_text_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rdi_other_address"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:text="Autre Adresse"
+            android:textColor="@color/dialog_text_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rdi_ship_this_address"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:text="Livré à cette adresse"
+            android:textColor="@color/dialog_text_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:text="Mode Payement"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/dialog_header_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rdi_cod"
+            android:checked="true"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:text="Payement à la Livraison"
+            android:textColor="@color/dialog_text_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rdi_braintree"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:text="BrainTree"
+            android:textColor="@color/dialog_text_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RadioGroup>
+
+</LinearLayout>

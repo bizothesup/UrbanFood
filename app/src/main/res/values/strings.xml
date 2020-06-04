@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">UrbanFood</string>
+    <string name="internet_permission_title">Autorisation Internet</string>
+    <string name="internet_permission_message">Veillez autoriser les accées à l\'application</string>
+    <string name="internet_permission_denied">Veillez autoriser permission est requise pour accéder à l\'application</string>
+    <string name="welcom">Bonjour, Bienvenu</string>
+    <string name="info_login">Veillez renseigner votre numero Téléphone</string>
+    <string name="contactUs_phoneNo">Téléphone</string>
+    <string name="valider">Valider</string>
+    <string name="send_code">Code a été envoyé par sms sur votre numéro de mobile</string>
+    <string name="nom_prenom">"Nom "</string>
+    <string name="date_naisance">Anniversaire</string>
+    <string name="address">Adresse</string>
+    <string name="Button_Submit_ContactUs">Enregister</string>
+    <string name="info_user">Veillez mettre à jour votre profile</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="popular_categories">Catégorie Populaire</string>
+    <string name="menu_populaire">Menu Populaire</string>
+    <string name="meilleur_offres">Meilleurs Offres</string>
+    <string name="menu_category">Menu</string>
+    <string name="menu_food">Plats</string>
+    <string name="supplement">Supplements</string>
+    <string name="size">Taille</string>
+    <string name="menu_food_detail">Detail Plat</string>
+    <string name="menu_cart">Panier</string>
+    <string name="menu_tools">Commande</string>
+    <string name="action_clear_cart">Effacer Listes</string>
+    <string name="menu_logout">Déconnexion</string>
+
+</resources>
